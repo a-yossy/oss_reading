@@ -3,5 +3,12 @@
 version = 4
 
 [[package]]
+name = "dotenv"
+version = "0.15.0"
+
+[[package]]
 name = "dotenv_reading"
 version = "0.1.0"
+dependencies = [
+ "dotenv",
+]
